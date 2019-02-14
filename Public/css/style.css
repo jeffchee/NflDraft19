@@ -1,0 +1,18 @@
+.container {
+    padding: 15px;
+}
+
+#advertisement1 {
+    padding:35px;
+    margin:30px 130px 15px 130px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.row {
+    background-color: white;
+    margin: 15px;
+    padding:40px;
+    text-align: center;
+
+}
