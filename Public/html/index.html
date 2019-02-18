@@ -10,36 +10,61 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
 
 </head>
 
 <body>
 
-    <nav>
-        <div class="nav-wrapper indigo darken-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="../images/nfllogo.jpg" alt="nfllogo" width="60" height="56">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><img src="../images/nfllogo.jpg" alt="nfllogo" width="60" height="56"></li>
-                <li><a href="http://www.nfl.com/news">NEWS</a></li>
-                <li><a href="http://www.nfl.com/scores">SCORES</a></li>
-                <li><a href="http://www.nfl.com/schedule">SCHEDULE</a></li>
-                <li><a href="http://www.nfl.com/standings">STANDINGS</a></li>
-                <li><a href="http://www.nfl.com/highlights">HIGHLIGHTS</a></li>
-                <li><a href="http://www.nfl.com/combine">COMBINE</a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item nav-link">
+                    <a href="http://www.nfl.com/news">NEWS</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href="http://www.nfl.com/scores">SCORES</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href="http://www.nfl.com/schedule">SCHEDULE</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href="http://www.nfl.com/standings">STANDINGS</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href="http://www.nfl.com/highlights">HIGHLIGHTS</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a href="http://www.nfl.com/combine">COMBINE</a>
+                </li>
+
             </ul>
 
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="http://www.nfl.com/fantasy">FANTASY</a></li>
-                <li><a href="http://www.nfl.com/tickets">TICKETS</a></li>
-                <li><a href="http://www.nfl.com/shop">SHOP</a></li>
-                <li><a href="http://www.nfl.com/teams">TEAMS</a></li>
-                <li><a href="http://www.nfl.com/signin">SIGN IN</a></li>
-            </ul>
-        </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item nav-link">
+                        <a href="http://www.nfl.com/fantasy">FANTASY</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a href="http://www.nfl.com/tickets">TICKETS</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a href="http://www.nfl.com/shop">SHOP</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a href="http://www.nfl.com/teams">TEAMS</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a href="http://www.nfl.com/signin">SIGN IN</a>
+                    </li>
+            </div>
     </nav>
-
-
 
 
 
@@ -48,24 +73,107 @@
 
         <div id="advertisement1">Ad</div>
 
-        <div class="container-fluid" style="background-color:DodgerBlue;>
+        <div id="container">
 
             <div class="row">
-                <div class="col-8">
-                    <img src="../images/2019-nfl-mock-draft.jpg" alt="nfllogo" width="600" height="560">
+                <div class="col-md-8">
+                    <img src="../images/2019-nfl-mock-draft.jpg" alt="nfllogo" width="600" height="400">
                 </div>
-
-                <div class="col-4"></div>
-
+                <div class="col-md-4">
+                    <button class="collapsible">Rank 1: Nick Bosa, Edge</button>
+                    <div class="content">
+                        <p>School: Ohio State | Year: Junior
+                            Bosa has an ideal frame for a 4-3 DE and he is consistently disruptive in every game I've
+                            studied. As a pass rusher, he can win with quickness, power and a variety of hand moves. He
+                            often incorporates the same swipe/rip/flatten move that his brother Joey has mastered. Nick
+                            can convert speed to power and he also flashes some ability to slide inside and rush over
+                            the guard. He is stout at the point of attack against the run and he's quick to locate and
+                            pursue the football. There are some durability concerns after he underwent season-ending
+                            core-muscle surgery this past fall. Bosa isn't as big as his older brother, but I expect
+                            similar dominance and production at the NFL level.</p>
+                    </div>
+                    <button class="collapsible">Rank 2: Quinnen Williams, DT</button>
+                    <div class="content">
+                        <p>School: Alabama | Year: Sophomore (RS)
+                            Williams has good size for the position and possesses a rare combination of suddenness,
+                            strength and football intelligence. He moved up and down the line of scrimmage in Alabama's
+                            defense and was effective at every spot. As a pass rusher, he explodes off the ball,
+                            maintains leverage and pushes his opponent into the lap of the quarterback. He also uses a
+                            violent club/swim move. Williams is constantly double-teamed, but he still finds a way to
+                            generate pressures and sacks. Against the run, he plays with a low pad level, locks his
+                            hands inside and violently sheds blocks to pursue the ball carrier. Overall, this is a
+                            dominant player who's capable of emerging as a premier interior defensive lineman very early
+                            in his NFL career.</p>
+                    </div>
+                    <button class="collapsible">Rank 3: Josh Allen, Edge</button>
+                    <div class="content">
+                        <p>School: Kentucky | Year: Senior
+                            Allen is a tall, long edge player with tremendous agility, versatility and production. As a
+                            pass rusher, he wins with speed, bend and a nifty inside counter move. He doesn't possess a
+                            lot of power, but makes up for it with his Gumby-like flexibility at the top of his rush.
+                            Against the run, he uses his length to set the edge and he's a blur closing from the back
+                            side. Allen is a huge asset in coverage, providing the athletic ability to mirror backs and
+                            tight ends all over the field. Overall, the Kentucky product possesses an ideal skill set
+                            for today's game: He can run, rush and cover.</p>
+                    </div>
+                    <button class="collapsible">Rank 4: Rashan Gary, Edge</button>
+                    <div class="content">
+                        <p>School: Michigan | Year: Junior
+                            Gary is a freak. He has a unique blend of size, speed, explosiveness and power.
+                            Unfortunately, it doesn't always translate to production. As a pass rusher, he has a dynamic
+                            get-off and flashes the power to bull through OTs with only one arm extended. However, he
+                            lacks complementary moves and stalls at the top of his rush far too often. Against the run,
+                            he destroys TEs on the edge with pure strength and power. However, he will bury his head and
+                            fail to locate the football at times. His athleticism is on display in coverage, where I've
+                            seen him run and mirror slot receivers. There are some concerns about his durability after
+                            he missed time with injuries. Overall, Gary is more of an athlete than football player at
+                            this time, but the upside is off the charts and his effort is exceptional.</p>
+                    </div>
+                    <button class="collapsible">Rank 5: Jeffery Simmons, DT</button>
+                    <div class="content">
+                        <p>School: Mississippi State | Year: Junior
+                            Simmons has the ideal frame, athleticism and explosiveness for the position. As a pass
+                            rusher, he has an exceptional first step and rolls his hips to uproot blockers. Simmons has
+                            tremendous upper torque to stack and toss blockers on the way to the quarterback. He excels
+                            on twists and games. Against the run, he explodes into blocks, extends his arms, peeks and
+                            frees himself to make plays. However, teams will need to do their homework on his character
+                            -- his 2016 arrest stemmed from a highly publicized video of him getting into a physical
+                            altercation with a woman. Overall, Simmons has Pro Bowl potential and a similar skill set to
+                            Eagles DT Fletcher Cox.</p>
+                    </div>
+                    <button class="collapsible">Rank 6: Josh Jacobs, RB</button>
+                    <div class="content">
+                        <p>School: Alabama | Year: Junior
+                            Jacobs is one of my favorite players to study in this draft class. He has a thick, compact
+                            build and I love his combination of power, elusiveness and versatility. In the run game, he
+                            possesses excellent vision, burst and wiggle. His change-of-direction quickness is off the
+                            charts. He runs low to the ground and powers through tacklers in every game I studied.
+                            Jacobs has the speed to get to the perimeter -- he's a weapon when lined up as a QB in the
+                            Wildcat and when he's used on fly sweeps from the slot. In the passing game, Jacobs runs
+                            crisp routes, possesses natural hands and he's a make-you-miss specialist in space. He does
+                            need to improve in pass protection. He must come to balance as a blocker and avoid lunging
+                            at blitzers. Overall, Jacobs is a special talent and his light workload at Alabama (251
+                            carries in three seasons) should be viewed as a positive, not a negative.</p>
+                    </div>
+                </div>
             </div>
 
 
             <div class="row">
                 <div class="col-8">
-
+                    <div class="card">
+                        <div class="card-header">
+                            NFL Draft 19
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">What's your Prediction!</h5>
+                            <p class="card-text">Make your prediction for the 1st round, 2019 NFL Draft</p>
+                            <a href="/form" class="btn btn-primary">Draft</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-4">
-                    <p>Advertisement</p>
+                    <p id="advertisement2">Advertisement</p>
                 </div>
 
 
@@ -81,34 +189,18 @@
 
             <div class="row">
                 <div class="col-3">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
-                        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                        <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
-                        <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                        <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                    </div>
+
                 </div>
             </div>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <a class="btn btn-primary btn-lg" href="/ranking" role="button">Ranking</a>
+            <a class="btn btn-primary btn-lg" href="/form" role="button">form</a>
+            <a class="btn btn-primary btn-lg" href="/finish" role="button">Learn more</a>
         </div>
 
     </footer>
 
 
 
-
-
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -118,6 +210,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
 </body>
 
 </html>
